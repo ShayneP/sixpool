@@ -1,7 +1,6 @@
 ## Sixpool
 
-Sixpool is a basic, easy to use solution for creating and managing a threadpool in Ruby. It uses Starcraft terminology.
-It's useful for avoiding head of line blocking of big HTTP requests or API calls, but for quick operations you're better off not using
+Sixpool is a basic, easy to use solution for creating and managing a threadpool in Ruby. It's useful for avoiding head of line blocking of big HTTP requests or API calls in scripts or small apps, but for quick operations you're better off not using
 a managed thread pool, and just letting Ruby do it's own thing.
 
 ### Example usage
